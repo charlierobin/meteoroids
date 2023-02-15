@@ -3,7 +3,7 @@
  
 I deliberately avoided any kind of optimisation, as I was very curious to see what the impact would be on performance if I stuck to searching/finding/getting what was needed when it was needed, no matter how wasteful.
 
-So every place you would expect there to be optimistion, looking up a component once and then storing the reference, and so on, there isn’t one.
+So every place you would expect there to be optimisation – looking up a component once and then storing the reference, storing references to arrays of created objects, and so on – there isn’t one.
  
 Instead there are `GetComponent<>` and `FindObjectByType<>` and `FindObjectsByType<>` everywhere.
 
