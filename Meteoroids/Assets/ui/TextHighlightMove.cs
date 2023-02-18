@@ -26,7 +26,7 @@ public class TextHighlightMove : MonoBehaviour
     {
         RectTransform t = this.GetComponent<RectTransform>();
 
-        while (t.anchoredPosition.y > 81)
+        while (t.anchoredPosition.y > 151)
         {
             t.Translate(0, -2.5f * Time.deltaTime, 0);
 

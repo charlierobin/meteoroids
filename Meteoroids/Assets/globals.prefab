@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7355357532941873566}
   - component: {fileID: 7355357532941873565}
+  - component: {fileID: 2560581921230184589}
   m_Layer: 0
   m_Name: globals
   m_TagString: Untagged
@@ -49,3 +50,15 @@ MonoBehaviour:
   gameUIPrefab: {fileID: 2421136574586919514, guid: 37e73e360ec0240d89a5b81e42693fdf, type: 3}
   highscoresUIPrefab: {fileID: -6571523409689672509, guid: 4f18b4e5e3d2d410d8189c3044f7884d, type: 3}
   enterNameUIPrefab: {fileID: 3298555260019448634, guid: fe0e9d7ad61c34149ae67c4062560de5, type: 3}
+--- !u!114 &2560581921230184589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355357532941873564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09138b6e03fe4d16b018c6d21a43791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

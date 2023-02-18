@@ -8,9 +8,9 @@ public class HighScores : MonoBehaviour
 {
     public HighScoreData data;
 
-    public string highScoresFileName;
+    public string highScoresFileName = "com.charlierobin.meteoroids.high-scores.json";
 
-    private string pathToHighScores()
+    private string pathToHighScoresStorageLocation()
     {
         string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
 
@@ -23,16 +23,17 @@ public class HighScores : MonoBehaviour
             path = Path.Combine(path, "Documents");
         }
 
-        path = Path.Combine(path, highScoresFileName);
-
         return path;
+    }
+
+    private string pathToHighScores()
+    {
+        return Path.Combine(this.pathToHighScoresStorageLocation(), this.highScoresFileName);
     }
 
     private void Start()
     {
         this.name = typeof(HighScores).Name;
-
-        this.highScoresFileName = Application.identifier + ".high-scores.json";
 
         string path = this.pathToHighScores();
 

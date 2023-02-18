@@ -46,3 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     entries: []
+  highScoresFileName: com.charlierobin.meteoroids.high-scores.json
