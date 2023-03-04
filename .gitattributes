@@ -3,4 +3,3 @@
 
 * linguist-vendored
 *.cs linguist-vendored=false
-*.mat linguist-vendored=false
